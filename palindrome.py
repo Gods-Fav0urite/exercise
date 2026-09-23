@@ -1,3 +1,9 @@
+# name = "level"
+# reversed_name = ""
+# for char in name:
+#     reversed_name = char + reversed_name
+# print(name == reversed_name)
+
 word = "level" 
 left = 0
 right = len(word) - 1
