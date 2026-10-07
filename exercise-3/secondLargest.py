@@ -1,5 +1,6 @@
 def find_second_largest(numbers):
-    second_largest = float('-inf')
+    largest = None
+    second_largest = None
     
     for num in numbers:
         if num == largest or num == second_largest:

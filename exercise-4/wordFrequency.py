@@ -17,6 +17,7 @@
 # print(most_frequent(count_words(['Python', 'is', 'fun', ',', 'and', 'Python', 'is', 'powerful!'])))
 
 # Helper functions with zero side effects
+
 def count_words(words: list[str]) -> dict[str, int]:
     freq = {}
     for w in words:

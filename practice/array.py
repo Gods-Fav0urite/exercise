@@ -8,12 +8,6 @@ arr = [
 
 print(arr)
 
-dictionary = {
-    'apple': 3,
-    'mangos': 5,
-    "orange": 6
-}
-
 #list
 #pop, append, extend, remove
 

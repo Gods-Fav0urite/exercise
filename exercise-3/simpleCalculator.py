@@ -51,5 +51,5 @@ def continuous_calculator():
 
         print(f"Result: {current_total}")
 
-if __name__ == "__main_":
+if __name__ == "_main_":
     continuous_calculator()
