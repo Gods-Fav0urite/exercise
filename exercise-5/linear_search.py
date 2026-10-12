@@ -1,6 +1,6 @@
 values = [14, 7, 22, 9, 7, 31]
 
-Target = 18
+Target = 22
 Found = False
 
 for result in range(len(values)):
