@@ -5,9 +5,9 @@ matrix = [
 ]
 
 for row in range(len(matrix)):
-    row_sum = 0
+    row_total = 0
     
     for col in range(len(matrix[row])):
-       row_sum += matrix[row][col]
+       row_total += matrix[row][col]
 
-    print(f"Row {row + 1} sum: {row_sum}")
+    print(f"Row {row + 1} total: {row_total}")
