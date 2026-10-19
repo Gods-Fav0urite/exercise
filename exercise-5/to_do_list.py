@@ -13,6 +13,7 @@ while True:
         task = input("Enter the task to add: ")
         tasks.append(task)
         print(f"Task '{task}' added.")
+
     elif choice == "2":
         if not tasks:
             print("No tasks in the list.")
@@ -20,6 +21,7 @@ while True:
             print("Tasks:")
             for index, task in enumerate(tasks, start=1):
                 print(f"{index}. {task}")
+
     elif choice == "3":
         if not tasks:
             print("No tasks to remove.")
@@ -36,6 +38,7 @@ while True:
                     print("Invalid task number.")
             except ValueError:
                 print("Please enter a valid number.")
+                
     elif choice == "4":
         print("Exiting the to-do list application.")
         break
