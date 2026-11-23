@@ -31,3 +31,5 @@ while count < N:
 print("Sequence:", sequences_str)
 print(f"Even Sum: {even_sum} (which is {even_str})")
 print("Reversed:", reversed_str)
+
+

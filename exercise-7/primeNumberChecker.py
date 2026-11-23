@@ -16,7 +16,8 @@ else:
     print(f"{N} is not prime.")
 
 primes_list = []
-total_sum = 0
+total_sum = 010
+
 num = 2
 while num <= N:
     current_is_n_prime = True
